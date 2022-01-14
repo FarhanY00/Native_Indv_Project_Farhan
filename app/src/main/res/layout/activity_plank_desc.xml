@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFF0"
+    tools:context=".Plank_desc">
+
+    <ImageView
+        android:id="@+id/ivPlank"
+        android:layout_width="402dp"
+        android:layout_height="235dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plank_2" />
+
+    <TextView
+        android:id="@+id/introPlank"
+        android:layout_width="385dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/introPlank"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIntroTopic" />
+
+    <TextView
+        android:id="@+id/tvIntroTopic"
+        android:layout_width="249dp"
+        android:layout_height="33dp"
+        android:text="@string/tvIntroTopic"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPlank" />
+
+    <TextView
+        android:id="@+id/bnftPlank"
+        android:layout_width="252dp"
+        android:layout_height="32dp"
+        android:text="@string/bnftPlank"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introPlank" />
+
+    <TextView
+        android:id="@+id/plankbnft1"
+        android:layout_width="388dp"
+        android:layout_height="93dp"
+        android:text="@string/plankbnft1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bnftPlank" />
+
+    <TextView
+        android:id="@+id/plankbnft2"
+        android:layout_width="387dp"
+        android:layout_height="115dp"
+        android:text="@string/plankbnft2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plankbnft1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

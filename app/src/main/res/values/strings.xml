@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Home Workout</string>
+    <string name="btnSkip">Skipping</string>
+    <string name="btnSkipping">HighKnee</string>
+    <string name="btnPlank">Plank</string>
+    <string name="btnMountainClimber">M. Climber</string>
+    <string name="introBnfitKnee">The high knees exercise is an excellent weight-bearing, full-body movement that increases your heart rate, warms the muscles in your lower and upper body, and prepares you for more complex exercises and activities. Here are some benefits of high knees.</string>
+    <string name="bnftKnee1">The explosive action of high knees gets your heart pumping for greater cardiovascular health while activating the quadriceps, calves, hamstrings, and glutes. It also juices the hips, abs, and upper body.  However, it’s also a plyometric exercise that improves your neuromuscular efficiency, which translates into improved acceleration, agility, and overall speed. You’re training your body in a specific movement pattern (running) but in a biomechanically correct way at functional speed. In short — you’re training your body to run better.</string>
+    <string name="bnftKnee2">High knees activate your quadriceps, hamstrings, calves, glutes, and hip flexors, helping improve muscular endurance, balance, and coordination in these muscles. When done at a high intensity and with bounding or explosive knee drives, they can also improve power in your lower body</string>
+    <string name="tvIntroTopic">WHAT IS A PLANK?</string>
+    <string name="introPlank">The plank is similar to being stuck in an extended push-up pose without actually moving your body weight up or down. This may sound much nicer and more forgiving than a set of push-ups, but the plank can become a strenuous exercise very quickly.</string>
+    <string name="bnftPlank">BENEFITS OF PLANK</string>
+    <string name="plankbnft1">Planks activate more muscles. Well, one reason is that situps and crunches can be hard on your back. Pushing your spine against the floor can cause lower back pain later on. Additionally, planks don’t just work your core: They work your entire body.</string>
+    <string name="plankbnft2">Planks can help improve your posture. By strengthening your back, chest, shoulders, neck, and abs, this exercise makes it easier to keep your shoulders back and your lower back in a neutral position while sitting or standing — two vital components of good posture.</string>
+    <string name="highKneeDefinition">WHAT IS HIGH KNEES?</string>
+    <string name="defHighKnee">High knees is a deceptively simple exercise that exaggerates basic running form to challenge multiple muscle groups — primarily the large lower-body muscles.</string>
+    <string name="kneeBnftQuestion">WHAT ARE THE BENEFITS OF HIGH KNEES?</string>
+    <string name="bnftOfKnee1">Increases heart rate and burns calories. High knees are considered a cardiovascular exercise. Within a few seconds of beginning the move, you will notice an increase in your heart rate and breathing. As you continue alternating knees and arms, you’ll also burn calories.</string>
+    <string name="bnftOfKnee2">Recruits your core muscles. High knees require assistance from your core or abdominal muscles. Not only does this make the move more effective, but activating the core muscles can also help improve posture.</string>
+    <string name="mClimbQ">WHAT IS A MOUNTAIN CLIMBER?</string>
+    <string name="MClimbDef">Mountain climbers is an explosive bodyweight exercise which engages multiple muscle groups at once helping to improve your balance, agility, coordination, strength, flexibility and blood circulation.</string>
+    <string name="bnftMClimbQ">WHAT ARE BENEFITS OF MOUNTAIN CLIMBER?</string>
+    <string name="bnftMClimber1">Mountain climbers are great for building cardio endurance, core strength, and agility. You work several different muscle groups with mountain climbers—it\'s almost like getting a total-body workout with just one exercise.</string>
+    <string name="bnftMClimber2">As you perform the move, your shoulders, arms, and chest work to stabilize your upper body while your core stabilizes the rest of your body. As the prime mover, your quads get an incredible workout, too. And because it\'s a cardio exercise, you\'ll get heart health benefits and burn calories.</string>
+    />
+</resources>

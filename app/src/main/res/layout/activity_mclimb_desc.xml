@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFF0"
+    tools:context=".M_Climb_desc">
+
+    <ImageView
+        android:id="@+id/ivMountClimb"
+        android:layout_width="402dp"
+        android:layout_height="235dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mountain_climber" />
+
+    <TextView
+        android:id="@+id/introMClimbQuestion"
+        android:layout_width="395dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/mClimbQ"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMountClimb" />
+
+    <TextView
+        android:id="@+id/defMCLimbAns"
+        android:layout_width="380dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/MClimbDef"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introMClimbQuestion" />
+
+    <TextView
+        android:id="@+id/bnftMClimbQuestion"
+        android:layout_width="356dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/bnftMClimbQ"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/defMCLimbAns" />
+
+    <TextView
+        android:id="@+id/bnftMClimb1"
+        android:layout_width="379dp"
+        android:layout_height="86dp"
+        android:text="@string/bnftMClimber1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bnftMClimbQuestion" />
+
+    <TextView
+        android:id="@+id/bnftMClimb2"
+        android:layout_width="381dp"
+        android:layout_height="131dp"
+        android:text="@string/bnftMClimber2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bnftMClimb1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
